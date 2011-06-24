@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CJA Helper - Add to File Notes</title>
+  <!--  
+    Copyright 2010 Dan Wasson 
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+  
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+  
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+  <link rel="stylesheet" type="text/css" href="css/demos.css"/>
+  <link rel="stylesheet" type="text/css" href="css/styles2.css"/>
+  <link rel="stylesheet" type="text/css" href="css/ui.all.css"/>
+  <link rel="stylesheet" type="text/css" href="css/ui.core.css"/>
+  <link rel="stylesheet" type="text/css" href="css/superfish.css"/>
+  <style type="text/css">
+    div.ui-datepicker{
+     font-size:10px;
+    }
+    #demo-frame > div.demo2 { padding: 10px; }
+    .bottom-button { width: 15em; }
+
+  </style>
+
+  <script type="text/javascript" src="js/jquery/jquery-1.3.2.js">      </script>
+  <script type="text/javascript" src="js/jquery/effects.core.js">      </script>
+  <script type="text/javascript" src="js/jquery/effects.highlight.js"> </script>
+  <script type="text/javascript" src="js/jquery/jquery.bgiframe.js">   </script>
+  <script type="text/javascript" src="js/jquery/jquery.multi-ddm.js">  </script>
+  <script type="text/javascript" src="js/jquery/ui.core.js">           </script>
+  <script type="text/javascript" src="js/jquery/ui.datepicker.js">     </script>
+  <script type="text/javascript" src="js/jquery/ui.dialog.js">         </script>
+  <script type="text/javascript" src="js/jquery/ui.draggable.js">      </script>
+  <script type="text/javascript" src="js/jquery/ui.resizable.js">      </script>
+  <script type="text/javascript" src="js/jquery/ui.slider.js">         </script>
+  <script type="text/javascript" src="js/jquery/hoverIntent.js">       </script>
+  <script type="text/javascript" src="js/jquery/superfish.js">         </script>
+  <script type="text/javascript" src="js/AddToFileNotes.js">           </script>
+
+</head>
+<body onload="Initialize()">
+
+  <h1><b>Add to File Notes</b></h1> 
+
+  <p style="font-size:150%;">
+    <button id="chooseFile" onclick="chooseFile()">Choose File Notes file to add to...</button>
+  </p><br />  
+
+  <span id='edit-controls'>
+    <table>
+      <tr>
+        <td style="text-align: left;font-size:150%;">Date:</td>
+        <td>
+          <div class="demo" style="font-size:150%;" style="text-align: left;"> 
+            <input id="datepicker" type="text" size=11> 
+          </div>
+        </td>
+        <td>  
+        </td>
+        <td style="font-size:150%;padding-left:150px;">
+          File Notes for : <span id="client-case-name" style="font-weight: bolder;" />
+        </td>
+      </tr>
+    </table>
+    <label style="font-size:150%;" for="type">Type of Work</label><br /> 
+    <input id="type" type="text" size=100 style="font-weight:600; color:black; background-color:#EFEFEF;">
+    <br />
+    <ul class="sf-menu" id="xmulti-ddm">
+    </ul>
+    <div id="dialog_for_court">
+      <form>
+        <fieldset>
+          <input type=checkbox name="continued" id="continued">Is this a Continuance?<p>
+        </fieldset>
+        <fieldset>
+          <table cellpadding=10>
+            <tr> 
+              <td><input type="radio" name="select_judge" id="sja"/><label for="sja">Judge Adler      </label> </td> 
+              <td><input type="radio" name="select_judge" id="sjb"/><label for="sjb">Judge Anello     </label> </td>
+              <td><input type="radio" name="select_judge" id="sjc"/><label for="sjc">Judge Battaglia  </label> </td>
+              <td><input type="radio" name="select_judge" id="sjd"/><label for="sjd">Judge Bencivengo </label> </td>
+              <td><input type="radio" name="select_judge" id="sje"/><label for="sje">Judge Benitez    </label> </td>
+            </tr>
+            <tr> 
+              <td><input type="radio" name="select_judge" id="sjf"/><label for="sjf">Judge Brewster   </label> </td>
+              <td><input type="radio" name="select_judge" id="sjg"/><label for="sjg">Judge Brooks     </label> </td>
+              <td><input type="radio" name="select_judge" id="sjh"/><label for="sjh">Judge Burns      </label> </td>
+              <td><input type="radio" name="select_judge" id="sji"/><label for="sji">Judge Gonzalez   </label> </td>
+              <td><input type="radio" name="select_judge" id="sjj"/><label for="sjj">Judge Gallo      </label> </td>
+            </tr>
+            <tr> 
+              <td><input type="radio" name="select_judge" id="sjj"/><label for="sjj">Judge Hayes      </label> </td>
+              <td><input type="radio" name="select_judge" id="sjk"/><label for="sjk">Judge Houston    </label> </td>
+              <td><input type="radio" name="select_judge" id="sjl"/><label for="sjl">Judge Huff       </label> </td>
+              <td><input type="radio" name="select_judge" id="sjm"/><label for="sjm">Judge Jones      </label> </td>
+              <td><input type="radio" name="select_judge" id="sjn"/><label for="sjn">Judge Lewis      </label> </td>
+            </tr>
+            <tr> 
+              <td><input type="radio" name="select_judge" id="sjo"/><label for="sjo">Judge Lorenz     </label> </td>
+              <td><input type="radio" name="select_judge" id="sjp"/><label for="sjp">Judge Major      </label> </td>
+              <td><input type="radio" name="select_judge" id="sjq"/><label for="sjq">Judge McCurine   </label> </td>
+              <td><input type="radio" name="select_judge" id="sjr"/><label for="sjr">Judge Miller     </label> </td>
+              <td><input type="radio" name="select_judge" id="sjs"/><label for="sjs">Judge Moskowitz  </label> </td>
+            </tr>
+            <tr> 
+              <td><input type="radio" name="select_judge" id="sjt"/><label for="sjt">Judge Papas      </label> </td>
+              <td><input type="radio" name="select_judge" id="sju"/><label for="sju">Judge Porter     </label> </td>
+              <td><input type="radio" name="select_judge" id="sjv"/><label for="sjv">Judge Sabraw     </label> </td>
+              <td><input type="radio" name="select_judge" id="sjw"/><label for="sjw">Judge Sammartino </label> </td>
+              <td><input type="radio" name="select_judge" id="sjx"/><label for="sjx">Judge Skomal     </label> </td>
+            </tr>
+            <tr> 
+              <td><input type="radio" name="select_judge" id="sjx"/><label for="sjx">Judge Stormes    </label> </td>
+              <td><input type="radio" name="select_judge" id="sjy"/><label for="sjy">Judge Thompson   </label> </td>
+              <td><input type="radio" name="select_judge" id="sjz"/><label for="sjz">Judge Whelan     </label> </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  
+    <div id="dialog_for_conference">
+      <form>
+        <fieldset>
+          <input type=checkbox name="attempted" id="attempted">Attempted?<p>
+        </fieldset>
+        <fieldset>
+          <table cellpadding=10>
+            <tr> 
+              <td><input type="radio" name="conf_location" id="cla"/><label for="cla">at CCA </label> </td> 
+              <td><input type="radio" name="conf_location" id="clb"/><label for="clb">at GEO </label> </td>
+              <td><input type="radio" name="conf_location" id="clc"/><label for="clc">at ICJ </label> </td>
+              <td><input type="radio" name="conf_location" id="cld"/><label for="cld">at MCC </label> </td>
+            </tr>
+            <tr> 
+              <td><input type="radio" name="conf_location" id="clf"/><label for="clf">at Counsel's Office     </label> </td>
+              <td><input type="radio" name="conf_location" id="clf"/><label for="clf">at US Attorneys Office  </label> </td>
+              <td><input type="radio" name="conf_location" id="clg"/><label for="clg">at US Marshalls         </label> </td>
+              <td><input type="radio" name="conf_location" id="clh"/><label for="clh"><i><b>at</b></i> USPO   </label> </td>
+            </tr>                                                                    
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  
+    <div id="dialog_for_comments">
+      <form>
+        <fieldset>
+          Comments:<br>
+          <input id="Comments" type="text" size=100>
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="dialog_for_court_other">
+      <form>
+        <fieldset>
+          Comments:<br>
+          <input id="court_other" type="text" size=100>
+        </fieldset>
+      </form>
+    </div>
+
+    <br /><br /><br /> 
+
+    <table>
+      <tr>
+        <td style="text-align: left;font-size:150%;">Time Spent:</td>
+        <td> 
+          <div class="demo2" style="font-size:150%;" style="text-align: right;">
+            <input type="text" id="amount" size=3 style="font-weight:600; color:black; background-color:#EFEFEF;" disabled >
+          </div>
+        </td>
+        <td></td><td></td>
+        <td> 
+           <div id="slider"></div>
+        </td> 
+      </tr>
+    </table>
+  
+    <br />
+
+    <button id="makeFileNote" onclick="MakeFileNote()">Make File Note</button>
+    <br />
+  
+    <textarea id="FileNotes" rows=12 cols=120>
+    </textarea>
+  
+    <br />
+    <button id="saveFile"   onclick="saveFile()"   class="nav-button bottom-button">Save File Notes</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                          
+    <button id="saveQuit"   onclick="saveQuit()"   class="nav-button bottom-button">Save and Return</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                          
+    <button id="chooseNew"  onclick="chooseNew()"  class="nav-button bottom-button">Choose New</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                          
+  </span>
+
+  <button id="chooseQuit" onclick="chooseQuit()" class="bottom-button">Return</button>
+
+  <!-- these breaks are necessary to add space at the bottom of the page 
+       so the 'type of work' dropdowns don't go out of bounds
+    -->
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+
+
+</body>
+</html>

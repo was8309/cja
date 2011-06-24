@@ -1,0 +1,107 @@
+JOHN_DOE,11SAMPLE-AA,2009-03-19,16a.,Telephone Call from/to Court Clerk  , 0.1
+JOHN_DOE,11SAMPLE-AA,2009-03-19,16b.,Received/Reviewed Court Minutes, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-03-19,18..,Received/Reviewed Order Setting Conditions, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-03-20,16a.,Conference with Client @ MCC, 1.0
+JOHN_DOE,11SAMPLE-AA,2007-03-23,16b.,Received/Reviewed District Court Documents, 0.3
+JOHN_DOE,11SAMPLE-AA,2009-03-23,16a.,Telephone Call from/to Assistant U.S. Attorney, 0.1
+JOHN_DOE,11SAMPLE-AA,2008-03-26,16a.,Telephone Call from/to MCC, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-03-27,16a.,Telephone Call from/to Assistant U.S. Attorney, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-03-27,16a.,Conference with Client @ MCC, 1.0
+JOHN_DOE,11SAMPLE-AA,2009-04-02,15h.,Other - Prelim Hearing cont. - Judge Bencivengo , 1.0
+JOHN_DOE,11SAMPLE-AA,2008-04-03,16b.,Received/Reviewed Court Minutes, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-04-02,16b.,Received/Reviewed Letter from AUSA w/ proposed Plea Agreement,0.1
+JOHN_DOE,11SAMPLE-AA,2009-03-27,16b.,Received/Reviewed Discovery , 1.0
+JOHN_DOE,11SAMPLE-AA,2009-04-08,16a.,Telephone Call from/to Assistant U.S. Attorney, 0.3
+JOHN_DOE,11SAMPLE-AA,2009-04-09,16b.,Received/Reviewed Additional Discovery , 0.5
+JOHN_DOE,11SAMPLE-AA,2009-04-13,16a.,Conference with Client @ MCC , 1.0
+JOHN_DOE,11SAMPLE-AA,2009-04-13,16a.,Telephone Call from/to Court Clerk, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-04-15,16b.,Received/Reviewed Court Minutes, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-04-15,16b.,Received/Reviewed Notice of Merged Cases, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-04-24,16a.,Telephone Call from/to Assistant U.S. Attorney, 0.2
+JOHN_DOE,11SAMPLE-AA,2009-04-25,16a.,Conference with Client @ MCC, 1.5
+JOHN_DOE,11SAMPLE-AA,2009-04-27,16a.,Telephone Call from/to Assistant U.S. Attorney, 0.1
+JOHN_DOE,11SAMPLE-AA,2007-04-28,15a.,Plea - Judge Bencivengo, 1.5
+JOHN_DOE,11SAMPLE-AA,2009-04-29,16a.,Telephone Call from/to Court Clerk, 0.2
+JOHN_DOE,11SAMPLE-AA,2009-04-29,16b.,Received/Reviewed Court Minutes, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-04-29,16b.,Received/Reviewed Notice of Hearing, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-04-29,16b.,Received/Reviewed Findings and Recommendations, 0.1
+JOHN_DOE,11SAMPLE-AA,2008-04-29,16b.,Received/Reviewed Court Minute Order, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-05-14,16b.,Received/Reviewed Govt. Sentencing Summary Chart, 0.3
+JOHN_DOE,11SAMPLE-AA,2009-05-14,16b.,Received/Reviewed Notice of Attorney Appearance, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-05-18,16a.,Attempted Conference with Client @ MCC, 0.5
+JOHN_DOE,11SAMPLE-AA,2009-05-19,16a.,Telephone Call from/to GEO Detention Facility, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-05-19,16a.,Telephone Call from/to US Marshalls, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-05-20,16b.,Received/Reviewed Criminal History Rept from US Probation, 0.2
+JOHN_DOE,11SAMPLE-AA,2009-05-21,16c.,Drafted Sentencing Summary Chart, 0.3
+JOHN_DOE,11SAMPLE-AA,2009-05-21,16c.,Drafted Sentencing Summary Chart, 0.3
+JOHN_DOE,11SAMPLE-AA,2009-05-26,15e.,Sentencing Hearings - Judge Huff, 1.0
+JOHN_DOE,11SAMPLE-AA,2009-05-26,16b.,Received/Reviewed Court Minutes, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-05-26,16b.,Received/Reviewed Abstract of Order of Release, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-05-26,16b.,Received/Reviewed Judgment, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-06-02,16b.,Received/Reviewed Court Minutes, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-06-15,16b.,Received/Reviewed Notice Judgment Returned Executed, 0.1
+JOHN_DOE,11SAMPLE-AA,2009-06-11,16a.,Telephone Call from/to GEO,0.2
+JOHN_DOE,11SAMPLE-AA,2009-08-05,15a.,Arraignment - Judge Anello,0.1
+JOHN_DOE,11SAMPLE-AA,2009-08-05,17..,Travel Expenses to Imperial County,0.4
+JOHN_DOE,11SAMPLE-AA,2009-08-06,17..,Travel Expenses to Imperial County,0.3
+JOHN_DOE,11SAMPLE-AA,2009-08-05,17..,Travel Expenses to Imperial County,0.5
+JOHN_DOE,11SAMPLE-AA,2009-08-06,17..,Travel Expenses to Imperial County,0.4
+JOHN_DOE,11SAMPLE-AA,2009-08-02,15a.,Plea and Sentencing - Judge Adler,0.3
+JOHN_DOE,11SAMPLE-AA,2009-08-02,15a.,Arraignment - Judge Adler,0.3
+JOHN_DOE,11SAMPLE-AA,2009-08-11,15a.,Arraignment - Judge Battaglia,0.5
+JOHN_DOE,11SAMPLE-AA,2009-08-24,17..,Travel Expenses to Imperial County,1.4
+JOHN_DOE,11SAMPLE-AA,2009-08-20,17..,Travel Expenses to Imperial County,0.2
+JOHN_DOE,11SAMPLE-AA,2009-08-21,17..,Travel Expenses to Otay Mesa CCA,0.3
+JOHN_DOE,11SAMPLE-AA,2005-08-21,15a.,Plea and Sentencing - Judge Anello,0.2
+JOHN_DOE,11SAMPLE-AA,2005-08-22,17..,Travel Expenses to Imperial County,0.3
+JOHN_DOE,11SAMPLE-AA,2005-08-05,17..,Travel Expenses to Otay Mesa CCA,1.0
+JOHN_DOE,11SAMPLE-AA,2005-08-04,16d.,Travel time to Imperial County,0.2
+JOHN_DOE,11SAMPLE-AA,2009-08-11,16b.,Received/Reviewed Govt. Response,0.4
+JOHN_DOE,11SAMPLE-AA,2009-08-14,15b.,Bail and Detention Hearing - Judge Thompson,1.3
+JOHN_DOE,11SAMPLE-AA,2009-10-08,16a.,Conference with Client at CCA,1.0
+JOHN_DOE,11SAMPLE-AA,2009-11-18,16b.,Received/Reviewed Court Minutes,0.4
+JOHN_DOE,11SAMPLE-AA,2009-11-18,16b.,Received/Reviewed Court Minutes,0.4
+JOHN_DOE,11SAMPLE-AA,2010-01-14,17..,Travel Expenses to Imperial County,0.3
+JOHN_DOE,11SAMPLE-AA,2010-01-14,17..,Travel Expenses to Otay Mesa CCA,0.5
+JOHN_DOE,11SAMPLE-AA,2010-01-14,15a.,Arraignment - Judge Battaglia,0.8
+JOHN_DOE,11SAMPLE-AA,2010-01-14,16a.,Conference with Clients Family,0.4
+JOHN_DOE,11SAMPLE-AA,2010-01-01,16a.,Conference with Clients Family,0.4
+JOHN_DOE,11SAMPLE-AA,2009-12-31,16a.,Conference with Clients Family,0.4
+JOHN_DOE,11SAMPLE-AA,2010-07-08,16a.,Conference with Client at GEO,0.3
+JOHN_DOE,11SAMPLE-AA,2010-07-08,15b.,Bail and Detention Hearing - Judge Battaglia,1.5
+JOHN_DOE,11SAMPLE-AA,2010-07-29,17..,Travel Expenses to Imperial County,0.4
+JOHN_DOE,11SAMPLE-AA,2010-07-06,17..,Travel Expenses to Otay Mesa CCA,0.5
+JOHN_DOE,11SAMPLE-AA,2010-07-14,17..,Travel Expenses to Otay Mesa CCA,0.4
+JOHN_DOE,11SAMPLE-AA,2010-07-16,18..,Other Expenses - esawf,0.5
+JOHN_DOE,11SAMPLE-AA,2010-07-07,16a.,Conference with Client at GEO,0.3
+JOHN_DOE,11SAMPLE-AA,2010-07-07,16a.,Conference with Client at GEO,0.3
+JOHN_DOE,11SAMPLE-AA,2010-07-07,16a.,Conference with Client at GEO,0.3
+JOHN_DOE,11SAMPLE-AA,2010-07-13,17..,Travel Expenses to Imperial County,0.7
+JOHN_DOE,11SAMPLE-AA,2010-07-13,15d.,Trial - Judge Burns,0.7
+JOHN_DOE,11SAMPLE-AA,2010-07-13,16a.,Conference with Client at USPO,0.7
+JOHN_DOE,11SAMPLE-AA,2010-07-06,17..,Travel Expenses to Imperial County,0.1
+JOHN_DOE,11SAMPLE-AA,2010-07-31,17..,Travel Expenses to Imperial County,0.1
+JOHN_DOE,11SAMPLE-AA,2010-07-31,17..,Travel Expenses to Imperial County,0.1
+JOHN_DOE,11SAMPLE-AA,2010-07-13,17..,Travel Expenses to Imperial County,0.6
+JOHN_DOE,11SAMPLE-AA,2010-07-13,17..,Travel Expenses to Otay Mesa CCA,1.1
+JOHN_DOE,11SAMPLE-AA,2010-07-31,17..,Travel Expenses to Imperial County,0.9
+JOHN_DOE,11SAMPLE-AA,2010-07-22,17..,Travel Expenses to Imperial County,0.5
+JOHN_DOE,11SAMPLE-AA,2010-07-19,17..,Travel Expenses to Otay Mesa CCA,0.3
+JOHN_DOE,11SAMPLE-AA,2010-07-14,17..,Travel Expenses to Otay Mesa CCA,0.3
+JOHN_DOE,11SAMPLE-AA,2010-07-13,17..,Travel Expenses to Otay Mesa CCA,0.3
+JOHN_DOE,11SAMPLE-AA,2010-07-08,16a.,Attempted Conference with Client at ICJ,0.5
+JOHN_DOE,11SAMPLE-AA,2010-07-08,15c.,Motion Hearing - Judge Brooks,0.8
+JOHN_DOE,11SAMPLE-AA,2010-07-08,15c.,Motion Hearing - Judge Brooks,0.8
+JOHN_DOE,11SAMPLE-AA,2010-07-31,17..,Travel Expenses to - ;asdkasd;'akds'asd;,0.6
+JOHN_DOE,11SAMPLE-AA,2010-08-04,17..,Travel Expenses to Imperial County,0.3
+JOHN_DOE,11SAMPLE-AA,2010-08-20,16c.,Drafted Letter to Assistant U.S. Attorney,1.1
+JOHN_DOE,11SAMPLE-AA,2010-08-04,17..,Travel Expenses to Imperial County,0.3
+JOHN_DOE,11SAMPLE-AA,2010-08-04,17..,Travel Expenses to Otay Mesa CCA,0.4
+JOHN_DOE,11SAMPLE-AA,2010-08-10,17..,Travel Expenses to Imperial County,0.3
+JOHN_DOE,11SAMPLE-AA,2010-08-17,15a.,Arraignment - Judge Anello,0.7
+JOHN_DOE,11SAMPLE-AA,2010-08-03,17..,Travel Expenses to Imperial County,1.1
+JOHN_DOE,11SAMPLE-AA,2010-08-11,17..,Travel Expenses to Imperial County,0.2
+JOHN_DOE,11SAMPLE-AA,2010-08-11,15a.,Plea - Judge Anello,0.7
+JOHN_DOE,11SAMPLE-AA,2010-10-14,15a.,Plea and Sentencing - Judge Adler,0.4
+JOHN_DOE,11SAMPLE-AA,2010-10-13,16b.,Received/Reviewed Govt. Motion,0.3
+JOHN_DOE,11SAMPLE-AA,2010-10-13,15a.,Arraignment - Judge Gallo,0.4

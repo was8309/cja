@@ -1,0 +1,88 @@
+/**
+ * Drop Down Menu - CSS Temp
+ * March 26, 2009
+ * Corey Hart @ http://www.codenothing.com
+ */ 
+
+#multi-ddm {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#multi-ddm > li {
+	float: left;
+}
+
+#multi-ddm > li > a {
+	display: block;
+	width: 100px;
+	text-align:center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	color: #232323;
+	font-weight: bold;
+	background-color: #f1f1f1;
+	border: 1px solid #c5c5c5;
+}
+
+#multi-ddm > li > .parent-hover {
+	background-color: #c5c5c5;
+	border-left: 1px solid #545454;
+}
+
+#multi-ddm > li ul {
+	display: none;
+	list-style: none;
+	position: absolute;
+	margin: -1px 0 0 0;
+	z-index: 90;
+	padding: 0;
+}
+
+#multi-ddm > li ul a {
+	display: block;
+	width: 152px;
+	padding: 5px;
+	border-bottom: 1px solid #545454;
+	border-right: 1px solid #545454;
+	border-left: 1px solid #545454;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #232323;
+	background-color: #c5c5c5;
+}
+
+#multi-ddm > li ul li a.first {
+	border-top: 1px solid #545454;
+}
+
+#multi-ddm > li ul .child-hover1 {
+	background-color: #f1f1f1;
+}
+
+#multi-ddm > li ul .child-hover2 {
+	background-color: black;
+	color: white;
+}
+
+#multi-ddm > li ul .child-hover3 {
+	background-color: purple;
+	color: white;
+}
+
+#multi-ddm > li ul .child-hover4 {
+	background-color: blue;
+	color: white;
+}
+
+#multi-ddm > li ul li ul {
+	margin: -29px 0 0 163px;
+	position: absolute;
+}
+
+#multi-ddm span {
+	float: right;
+}
